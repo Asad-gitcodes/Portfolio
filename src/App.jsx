@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection"
 import CustomCursor from "./components/CustomCursor"
 import SkillsAndCertifications from './components/SkillsAndCertifications';
 import ProjectsPage from './components/ProjectsPage'; // adjust path as needed
+import EducationAndLeadership from "./components/EducationAndLeadership";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
     <CustomCursor/>
     <SkillsAndCertifications />
     <ProjectsPage />
+    <EducationAndLeadership/>
 
     </>
   )
